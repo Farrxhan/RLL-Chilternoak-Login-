@@ -31,12 +31,14 @@ public class LoginPage {
         loginPage.click();
     }
 
-    public void enterEmail(String email) {
+    public void enterEmail(String email) throws InterruptedException {
         emailField.sendKeys(email);
+        Thread.sleep(7000);
     }
 
-    public void enterPassword(String password) {
+    public void enterPassword(String password) throws InterruptedException {
         passwordField.sendKeys(password);
+        Thread.sleep(7000);
     }
 
     public void clickLoginButton() throws InterruptedException {
