@@ -8,8 +8,8 @@ Feature: Login functionality
 
   Examples:
     | username                         | password       			| loginResult           			|
-    | farhanbelagumi1@gmail.com        | farhan@123 			    | logged_in_successfully			|
+    | farhanbelgaumi1@gmail.com				 | farhan@123		   			| logged_in_successfully			|
     | far@gmail.com            		 		 | farhan@123			 			| incorrect email or Password |
-    | farhanbelagumi1@gmail.com    		 | far123       				| incorrect email or Password |
+    | farhanbelgaumi1@gmail.com    		 | far123       				| incorrect email or Password |
     | far@gmail.com  				       		 | far123								| incorrect email or Password |
     |                              		 |               			  | incorrect email or Password |

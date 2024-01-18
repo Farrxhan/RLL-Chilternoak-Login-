@@ -7,7 +7,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\farha\\furniture-project\\LoginFunctionality\\src\\test\\java\\features\\login.feature", glue = { "com.app.stepdefs" }, 
+@CucumberOptions(features = "C:\\Users\\farha\\furniture-project\\LoginFunctionality\\src\\test\\java\\features\\login.feature",
+glue = { "com.app.stepdefs", }, 
 plugin = {"html:target/Cucumber_login_report.html", "pretty",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "timeline:test-output-thread/" })
 

@@ -31,19 +31,19 @@ public class LoginPage {
         loginPage.click();
     }
 
-    public void enterEmail(String email) throws InterruptedException {
+    public void enterEmail(String email)  {
         emailField.sendKeys(email);
-        Thread.sleep(7000);
+        //Thread.sleep(10000);
     }
 
-    public void enterPassword(String password) throws InterruptedException {
+    public void enterPassword(String password) {
         passwordField.sendKeys(password);
-        Thread.sleep(7000);
+        //Thread.sleep(10000);
     }
 
-    public void clickLoginButton() throws InterruptedException {
+    public void clickLoginButton(){
         loginButton.click();
-        Thread.sleep(15000);
+       // Thread.sleep(30000);
     }
 
     
